@@ -118,7 +118,6 @@ public class Main {
         }
 
         int[] rowCol = {row, col};
-        System.out.println(Arrays.toString(rowCol));
         return rowCol;
 
     }
