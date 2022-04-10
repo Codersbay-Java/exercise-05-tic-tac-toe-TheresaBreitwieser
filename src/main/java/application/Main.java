@@ -19,6 +19,8 @@ public class Main {
         } else if (selection == 2) {
             game.playAgainstComputer(board);
         }
+
+        System.out.println(Game.gameCount);
     }
 }
 

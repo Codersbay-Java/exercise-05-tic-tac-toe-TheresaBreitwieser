@@ -37,8 +37,8 @@ public class Board {
         // Computer selektiert Reihe und Col, Werte werden geprüft und in int Array gegeben
         while (wrongInput) {
             System.out.println(player + " is choosing a row and a column");
-            row = random.nextInt((3 - 1) + 1) + 1;
-            col = random.nextInt((3 - 1) + 1) + 1;
+            row = random.nextInt((3 - 1) + 1);
+            col = random.nextInt((3 - 1) + 1);
 
             wrongInput = checkChoose(row, col);
         }
