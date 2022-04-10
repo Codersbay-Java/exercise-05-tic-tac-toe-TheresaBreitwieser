@@ -6,8 +6,8 @@ import java.util.Random;
 public class Board {
     private static final int BOARD_SIZE = 3;
     private static final int EMPTY_BOARD = 32; // " " Leerzeichen im ascII hat den Wert 32
-    public static final int PLAYER_ONE = 88; //ASCII value for X
-    public static final int PLAYER_TWO = 79; //ASCII value for O
+    private static final int PLAYER_ONE = 88; //ASCII value for X
+    private static final int PLAYER_TWO = 79; //ASCII value for O
     private int[][] board;
     private int[] selection = new int[2];
 
@@ -20,7 +20,7 @@ public class Board {
         printBoard();
     }
 
-    public void printBoard() {
+    private void printBoard() {
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
                 board[i][j] = EMPTY_BOARD;
