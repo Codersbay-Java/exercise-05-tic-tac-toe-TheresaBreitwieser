@@ -21,6 +21,7 @@ public class Main {
         }
 
         System.out.println(Game.gameCount);
+        System.out.println("Test for Git");
     }
 }
 

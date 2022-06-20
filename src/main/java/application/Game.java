@@ -2,9 +2,10 @@ package application;
 
 public class Game {
     public static int gameCount;
-    
+
     public Game() {
         System.out.println("Welcome to TIC TAC TOE");
+        gameCount++;
     }
 
     public void playAgainstPlayer(Board board) {
